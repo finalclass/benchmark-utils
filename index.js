@@ -9,4 +9,5 @@ module.exports.measureTime = function measureTime(msg, callback, thisArg) {
   } else {
     callback.call(thisArg);
   }
+  return module.exports;
 };
